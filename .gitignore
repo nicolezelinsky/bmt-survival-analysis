@@ -1,0 +1,19 @@
+# SAS Temporary and Utility Files
+*.sas7bdat
+*.sas7nbdat
+*.sas7bcat
+*.sas7vep
+*.sas7nit
+*.sas7bnd
+*.sas7prm
+
+# SAS Logs, Results, and PDF Snips
+*.log
+*.lst
+*.txt
+*.pdf
+
+# SAS Environment/Work files
+*.lck
+*.tmp
+_TD*
