@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_bmt_survival",
+  "source_file": "bmt-survival-analysis.sas",
+  "source_blob_sha": "ce91802667bc1e0296ad484a4ad4f08739b320fd",
+  "source_commit": "b4012317c52b9deecd53c71a5778ba08719b121f",
+  "notes": "Survival analysis: PROC LIFETEST (Kaplan-Meier + log-rank strata by Group) and PROC PHREG (Cox PH, ref=ALL, risklimits) on the BMT cohort. Original reads sashelp.BMT; autoexec ships a representative sample of that dataset as work.bmt (same Group/T/Status variables) so the two PROCs run stand-alone. Script logic, PROC options, time/strata/model statements unchanged."
+}

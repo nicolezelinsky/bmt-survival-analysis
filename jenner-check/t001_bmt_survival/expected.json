@@ -1,0 +1,13 @@
+{
+  "_captured_at": "2026-07-14T11:05:00Z",
+  "_captured_run_id": "r_525a91f08e8c4be19d03a77d2363ae9f",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote bmt (100 rows, 3 columns).",
+    "NOTE: PROC LIFETEST completed.",
+    "NOTE: PROC PHREG data=bmt"
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}
